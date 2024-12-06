@@ -1,1 +1,88 @@
-le code html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lab AWS EC2 et GitHub - Guide méthodique complet">
+  <title>Lab AWS EC2 & GitHub</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container header">
+      <img src="assets/images/global-academy-logo.png" alt="VTI Global Academy Logo" class="logo">
+      <h1>Lab AWS EC2 & GitHub</h1>
+      <p class="tagline">Un guide complet pour maîtriser GitHub et EC2 sur AWS.</p>
+    </div>
+  </header>
+
+  <main >
+    <section class="steps">
+      <div class="container">
+        <h2>Étapes du Lab</h2>
+        <ul>
+          <li>
+            <img src="assets/images/github.png" alt="GitHub">
+            <h3>1. Créer un compte GitHub :</h3> &nbsp;
+            <p>Rendez-vous sur <a href="https://github.com/" target="_blank">GitHub</a> et créez un compte si vous n'en avez pas déjà un.</p>
+          </li>
+          <li>
+            <img src="assets/images/github.png" alt="GitHub Repository">
+            <h3>2. Créer un référentiel (repository) :</h3> &nbsp;
+            <p>Créez un nouveau référentiel en utilisant l'interface web de GitHub.</p>
+          </li>
+          <li>
+            <img src="assets/images/github.png" alt="Clone">
+            <h3>3. Cloner le référentiel :</h3> &nbsp;
+            <p>Utilisez <code>git clone</code> pour cloner le référentiel localement.</p>
+          </li>
+          <li>
+            <img src="assets/images/github.png" alt="Commit">
+            <h3>4. Pousser des modifications :</h3> &nbsp;
+            <p>Ajoutez des fichiers avec <code>git add .</code>, validez les modifications avec <code>git commit</code>, puis poussez-les sur GitHub avec <code>git push</code>.</p>
+          </li>
+          <li>
+            <img src="assets/images/aws.png" alt="IAM AWS">
+            <h3>5. Configurer IAM sur AWS :</h3> &nbsp;
+            <p>Créez un utilisateur IAM avec les autorisations nécessaires pour interagir avec EC2.</p>
+          </li>
+          <li>
+            <img src="assets/images/ec2.png" alt="EC2">
+            <h3>6. Lancer une instance EC2 :</h3> &nbsp;
+            <p>Configurez une nouvelle instance EC2 via la console AWS.</p>
+          </li>
+          <li>
+            <img src="assets/images/ec2.png" alt="SSH">
+            <h3>7. Se connecter à EC2 :</h3> &nbsp;
+            <p>Connectez-vous à l'instance EC2 en utilisant SSH et la clé privée téléchargée.</p>
+          </li>
+          <li>
+            <img src="assets/images/github.png" alt="Git Configuration">
+            <h3>8. Configurer Git sur EC2 :</h3> &nbsp;
+            <p>Installez Git et configurez vos informations utilisateur avec <code>git config</code>.</p>
+          </li>
+          <li>
+            <img src="assets/images/github.png" alt="Git Pull">
+            <h3>9. Tirer et vérifier le code :</h3> &nbsp;
+            <p>Utilisez <code>git pull</code> pour récupérer les dernières modifications du référentiel.</p>
+          </li>
+          <li>
+            <img src="assets/images/aws.png" alt="Clean Up">
+            <h3>10. Terminer et nettoyer :</h3> &nbsp;
+            <p>Supprimez toutes les ressources AWS pour éviter des frais inutiles.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <p>&copy; 2024 VTI Global Academy. Tous droits réservés.</p>
+      <p>Contact : <a href="mailto:contact@globalacademy.cm">contact@globalacademy.cm</a></p>
+      <p>Téléphone : +620 224 288 / +693 526 747</p>
+    </div>
+  </footer>
+</body>
+</html>

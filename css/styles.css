@@ -1,0 +1,99 @@
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    background-image: url(../assets/images/bg.jpg);
+
+  }
+  
+  /* Header */
+  .header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .header .logo {
+    width: 80px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .header .tagline {
+    font-size: 1.2em;
+    font-style: italic;
+  }
+  
+  /* Étapes */
+  .steps {
+    background: white;
+    padding: 20px 0;
+  }
+  
+  .steps h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .steps ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .steps li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .steps li img {
+    width: 50px;
+    margin-right: 15px;
+  }
+  
+  .steps li h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .steps li p {
+    margin: 5px 0 0;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .footer a {
+    color: #00bcd4;
+    text-decoration: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .steps li {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .steps li img {
+      margin-bottom: 10px;
+    }
+  }
+  
